@@ -9,3 +9,7 @@ Experiments thus far:
 3. Signal Convolution: Leverage real world asset values for gold, bitcoin, and ethereum with signal processing layer to combine the streams into a single feature set for Chronos examination.  Convolution and deconvolution of the primary series data works well, and independent variable prediction also projects as expected.  Deconvolution of the projected convolution product, however, is not working due to inability to sync the phase of convoluted component signals and the projected convolution.  As such, the Inverse Fourier Transformation back into the time domain fails to render a meaningful output.
 
 Conclusion: It was hoped that the basic simple time series capacity of Chronos could be extended to multivariat analysis by external processing of the parallel streams.  At least across these three methods, the variable interplay is lost when processing through Chronos, thus rendering the output no more useful than parallel projections.  As expected, the signal processing will likely need to be incorporated within a Chronos-like multivariat product which is specifically trained on variable stream densities or range trained on a fixed set of stream counts.
+
+![image](https://github.com/user-attachments/assets/af1ba649-9c7c-4804-be89-8362cdac5bb1)
+
+

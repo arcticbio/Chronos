@@ -5,9 +5,9 @@ from chronos import ChronosPipeline
 import matplotlib.pyplot as plt
 
 # Load the datasets
-ethereum_path = "/Users/diamond/chronos0724/data_files/ethereum_prices.csv"
-gold_path = "/Users/diamond/chronos0724/data_files/gold_prices.csv"
-bitcoin_path = "/Users/diamond/chronos0724/data_files/bitcoin_prices.csv"
+ethereum_path = "/data_files/ethereum_prices.csv"
+gold_path = "/data_files/gold_prices.csv"
+bitcoin_path = "/data_files/bitcoin_prices.csv"
 
 ethereum_df = pd.read_csv(ethereum_path)
 gold_df = pd.read_csv(gold_path)

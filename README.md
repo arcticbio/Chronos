@@ -13,4 +13,7 @@ Conclusion: It was hoped that the basic simple time series capacity of Chronos c
 
 ![image](https://github.com/user-attachments/assets/af1ba649-9c7c-4804-be89-8362cdac5bb1)
 
+New Chronos "Bolt" release purports dramatically improved performance and support for co-variate examination: 
+
+https://aws.amazon.com/blogs/machine-learning/fast-and-accurate-zero-shot-forecasting-with-chronos-bolt-and-autogluon/
 
